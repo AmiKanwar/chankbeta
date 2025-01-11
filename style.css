@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.chat-container{
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    overflow: auto;
+}
+.user-chat{
+    width: 100%;
+   
+}
+.ai-chat{
+    width: 100%;
+    
+}
+.user-chat{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    position: relative;
+    margin-top: 20px;
+        
+}
+.user-input{
+    padding-left: 5%;
+}
+.ai-chat{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    position: relative;
+    text-align: justify;
+    
+}
+.chat-output{
+    padding-left: 5%;
+
+}
+#user-img{
+    position: absolute;
+}
+#aiprofile{
+    position: absolute;
+}
+.input-area{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: black;
+}
+#inputbox{
+    width: 50%;
+    border-radius: 20px;
+    border: 0px;
+    height: 40px;
+    padding: 10px;
+    color: black;
+    
+}
+#submit{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.load{
+    background-size: contain;
+    background: transparent;
+}
